@@ -1,0 +1,24 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 209 entries, 0 to 208
+Data columns (total 17 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   Country/Region    209 non-null    object 
+ 1   Continent         208 non-null    object 
+ 2   Population        208 non-null    float64
+ 3   TotalCases        209 non-null    int64  
+ 4   NewCases          4 non-null      float64
+ 5   TotalDeaths       188 non-null    float64
+ 6   NewDeaths         3 non-null      float64
+ 7   TotalRecovered    205 non-null    float64
+ 8   NewRecovered      3 non-null      float64
+ 9   ActiveCases       205 non-null    float64
+ 10  Serious,Critical  122 non-null    float64
+ 11  Tot Cases/1M pop  208 non-null    float64
+ 12  Deaths/1M pop     187 non-null    float64
+ 13  TotalTests        191 non-null    float64
+ 14  Tests/1M pop      191 non-null    float64
+ 15  WHO Region        184 non-null    object 
+ 16  iso_alpha         209 non-null    object 
+dtypes: float64(12), int64(1), object(4)
+memory usage: 27.9+ KB
